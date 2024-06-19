@@ -1,0 +1,86 @@
+/* Whole web page style */
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 10px 0;
+}
+
+#About,
+#Contacts {
+  padding: 0 100px;
+  margin: 50px 0;
+}
+
+.header1 {
+  background-image: url("background.png");
+  font-size: 16px;
+  color: #ffffff;
+  padding: 20px 100px;
+}
+
+.header1 img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 30p 91px;
+}
+#Name {
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+}
+.container {
+  position: relative;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* Change the color of the links on hover */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style the close button */
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the header button */
+.open-btn {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Style the main content */
+.main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
