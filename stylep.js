@@ -5,5 +5,7 @@ function openNav() {
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  document.querySelector(".main").style.marginLeft = "0";
-}
+  document.querySelector(".main").style.marginLeft = "";
+} 
+//this code is for navigation pannel
+//
